@@ -99,7 +99,7 @@ def main(gamertag=None):
                             icon=requests.get(friend['LargeGamerTileUrl']).content,
                         )
 
-            time.sleep(60 / (120 / 60))
+            time.sleep(60)
 
 if __name__ == '__main__':
     sys.exit(main(*sys.argv[1:]))
